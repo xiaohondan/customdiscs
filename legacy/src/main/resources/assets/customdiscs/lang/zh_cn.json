@@ -1,0 +1,13 @@
+{
+  "itemGroup.customdiscs": "自定义唱片",
+  "customdiscs.config.title": "自定义唱片设置",
+  "customdiscs.config.musicSourcePath": "音乐源文件夹",
+  "customdiscs.config.musicSourcePath.tooltip": "存放 .ogg 音乐文件的文件夹。填相对路径时会相对于游戏目录解析。",
+  "customdiscs.config.scan": "重新扫描音乐文件夹",
+  "customdiscs.config.enableCrafting": "启用合成配方",
+  "customdiscs.config.volume": "唱片音量（预留）",
+  "customdiscs.command.give.usage": "用法：/customdiscs give <唱片id> [数量]",
+  "customdiscs.command.give.unknown": "未知唱片：%s",
+  "customdiscs.command.give.ok": "已给予 %sx %s",
+  "customdiscs.toast.restart": "设置已保存，请重启游戏以使新唱片生效。"
+}

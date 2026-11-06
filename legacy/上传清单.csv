@@ -1,0 +1,19 @@
+﻿jar 文件名,Minecraft 版本,平台版本标签,加载器,必需依赖,可选依赖
+customdiscs-1.0.0-1.20.1.jar,1.20.1,=1.20.1,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.20.2.jar,1.20.2,=1.20.2,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.20.3.jar,1.20.3,=1.20.3,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.20.4.jar,1.20.4,=1.20.4,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.20.5.jar,1.20.5,=1.20.5,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.20.6.jar,1.20.6,=1.20.6,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.jar,1.21,=1.21,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.1.jar,1.21.1,=1.21.1,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.2.jar,1.21.2,=1.21.2,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.3.jar,1.21.3,=1.21.3,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.4.jar,1.21.4,=1.21.4,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.5.jar,1.21.5,=1.21.5,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.6.jar,1.21.6,=1.21.6,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.7.jar,1.21.7,=1.21.7,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.8.jar,1.21.8,=1.21.8,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.9.jar,1.21.9,=1.21.9,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.10.jar,1.21.10,=1.21.10,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu
+customdiscs-1.0.0-1.21.11.jar,1.21.11,=1.21.11,Fabric,Fabric Loader / Fabric API / Cloth Config API,Mod Menu

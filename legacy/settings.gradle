@@ -1,0 +1,32 @@
+pluginManagement {
+    // 1.21.9 起 Mojang/yarn 映射改用新版 unpick 定义，Loom 1.10 会抛
+    // "Unsupported unpick version"（Fabric 官方建议 1.21.9 使用 Loom 1.11+）。
+    // 这里按目标 MC 版本切换 Loom：1.21.9+ 用新版，其余沿用已验证的 1.10.+，
+    // 避免整体升级影响旧版本的构建结果。
+    def targetMc = '1.21.1'
+    try {
+        targetMc = gradle.startParameter.projectProperties.get('mc') ?: '1.21.1'
+    } catch (Throwable ignored) {
+        // 极少数 Gradle 版本下该属性不可读，此时退回默认版本，不影响旧版构建
+    }
+    // 1.21.9 起需要 unpick V3/V4：1.12.7 已够用（1.21.9/1.21.10 已用它出包）。
+    // 但 1.21.11 的 Fabric API 等依赖是用 Loom 1.13.3 构建的，旧 Loom 会直接拒绝
+    // （"Mod was built with a newer version of Loom"），故该版本单独升到 1.13.6。
+    // 1.14 起要求 Gradle 9.2，本机 Gradle 8.14 用不了，所以不能往上升。
+    def loomVersion = '1.10.+'
+    if (targetMc == '1.21.11') {
+        loomVersion = '1.13.6'
+    } else if (['1.21.9', '1.21.10'].contains(targetMc)) {
+        loomVersion = '1.12.7'
+    }
+    plugins {
+        id 'fabric-loom' version loomVersion
+    }
+    repositories {
+        maven { url = 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url = 'https://maven.fabricmc.net/' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+rootProject.name = 'customdiscs'

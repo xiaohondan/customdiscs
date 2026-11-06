@@ -1,0 +1,637 @@
+{
+  "project_id": "LjZ4jpPT",
+  "project_slug": "nekocustomdiscs",
+  "note": "本文件是 M 站版本的唯一事实来源；CI 只按此清单同步，不会删除清单外的版本。",
+  "versions": [
+    {
+      "file": "dist/customdiscs-1.0.0-1.20.1.jar",
+      "mc": "1.20.1",
+      "version_number": "1.0.0-1.20.1",
+      "name": "Neko Custom Discs 1.0.0-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "6de1ca2a5316dcc5d38c0d1a973598dc5bc68f20"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.20.2.jar",
+      "mc": "1.20.2",
+      "version_number": "1.0.0-1.20.2",
+      "name": "Neko Custom Discs 1.0.0-1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "9a7588859dbc6d244aa3d01c5e96cf44b5e80c3f"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.20.3.jar",
+      "mc": "1.20.3",
+      "version_number": "1.0.0-1.20.3",
+      "name": "Neko Custom Discs 1.0.0-1.20.3",
+      "game_versions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.3。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "06a78c0b260e41caf03cc17f08f580c5b5279fad"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.20.4.jar",
+      "mc": "1.20.4",
+      "version_number": "1.0.0-1.20.4",
+      "name": "Neko Custom Discs 1.0.0-1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.4。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "0b4db4a3af301186f3fc21b8836ddeefca508496"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.20.5.jar",
+      "mc": "1.20.5",
+      "version_number": "1.0.0-1.20.5",
+      "name": "Neko Custom Discs 1.0.0-1.20.5",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.5。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "89f7bd9b297dd548b280510360e2bf6dbce3d231"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.20.6.jar",
+      "mc": "1.20.6",
+      "version_number": "1.0.0-1.20.6",
+      "name": "Neko Custom Discs 1.0.0-1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.6。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "86053a73519c0cb2dcc73d16bffb7ac4b73e3473"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.jar",
+      "mc": "1.21",
+      "version_number": "1.0.0-1.21",
+      "name": "Neko Custom Discs 1.0.0-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "92156f74b9ebba21db058e115f3c74e12ee348f7"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.1.jar",
+      "mc": "1.21.1",
+      "version_number": "1.0.0-1.21.1",
+      "name": "Neko Custom Discs 1.0.0-1.21.1",
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "8ddde58ae0eb40c7754ba27039a7368675a26de4"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.2.jar",
+      "mc": "1.21.2",
+      "version_number": "1.0.0-1.21.2",
+      "name": "Neko Custom Discs 1.0.0-1.21.2",
+      "game_versions": [
+        "1.21.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "851062f912d5ad44672559df9f97fcff5397752a"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.3.jar",
+      "mc": "1.21.3",
+      "version_number": "1.0.0-1.21.3",
+      "name": "Neko Custom Discs 1.0.0-1.21.3",
+      "game_versions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.3。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "c3c8a4e751b787063fa2c404deec4b721d856b78"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.4.jar",
+      "mc": "1.21.4",
+      "version_number": "1.0.0-1.21.4",
+      "name": "Neko Custom Discs 1.0.0-1.21.4",
+      "game_versions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.4。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "06b9345918c82efd1ef6f6257e2e436b40724e40"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.5.jar",
+      "mc": "1.21.5",
+      "version_number": "1.0.0-1.21.5",
+      "name": "Neko Custom Discs 1.0.0-1.21.5",
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.5。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "89cda68d9406425b79471b36de667f4bda5f97c3"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.6.jar",
+      "mc": "1.21.6",
+      "version_number": "1.0.0-1.21.6",
+      "name": "Neko Custom Discs 1.0.0-1.21.6",
+      "game_versions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.6。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "0f4a36847644dedda8629ad829f771b37d2d9dd2"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.7.jar",
+      "mc": "1.21.7",
+      "version_number": "1.0.0-1.21.7",
+      "name": "Neko Custom Discs 1.0.0-1.21.7",
+      "game_versions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.7。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "4e6e0c0b94e0fddd0c34b437b122cae68ff779f0"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.8.jar",
+      "mc": "1.21.8",
+      "version_number": "1.0.0-1.21.8",
+      "name": "Neko Custom Discs 1.0.0-1.21.8",
+      "game_versions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.8。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "72e71a2cd9df5080a18cf72bb9c3fa0e182bed33"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.9.jar",
+      "mc": "1.21.9",
+      "version_number": "1.0.0-1.21.9",
+      "name": "Neko Custom Discs 1.0.0-1.21.9",
+      "game_versions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.9。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "5c2312bb2c6f79d884d9aca3eba5b418bd7cc15f"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.10.jar",
+      "mc": "1.21.10",
+      "version_number": "1.0.0-1.21.10",
+      "name": "Neko Custom Discs 1.0.0-1.21.10",
+      "game_versions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.10。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "2a63e30492ecfef7fda9f413c87bf303361eecf2"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-1.21.11.jar",
+      "mc": "1.21.11",
+      "version_number": "1.0.0-1.21.11",
+      "name": "Neko Custom Discs 1.0.0-1.21.11",
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.11。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "d7f2fa7b75bdc0ea57eb6925796501079b18d7b7"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-26.1.jar",
+      "mc": "26.1",
+      "version_number": "1.0.0-26.1",
+      "name": "Neko Custom Discs 1.0.0-26.1",
+      "game_versions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 26.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "f87ffc962e8c5aaf072890939ed078f2cf9f770d"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-26.2.jar",
+      "mc": "26.2",
+      "version_number": "1.0.0-26.2",
+      "name": "Neko Custom Discs 1.0.0-26.2",
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 26.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "1cd00eb694493e1ab48ffd6bf616cac21f9457e2"
+    },
+    {
+      "file": "dist/customdiscs-1.0.0-26.3.jar",
+      "mc": "26.3",
+      "version_number": "1.0.0-26.3",
+      "name": "Neko Custom Discs 1.0.0-26.3",
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "version_type": "release",
+      "status": "listed",
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "dependency_type": "optional"
+        }
+      ],
+      "changelog": "Custom Discs 1.0.0 for Minecraft 26.3。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "80ac5041eaa800aed3b4e66d228a25176372c45c"
+    }
+  ]
+}

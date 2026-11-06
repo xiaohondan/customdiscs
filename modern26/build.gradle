@@ -1,0 +1,53 @@
+// Custom Discs —— Minecraft 26.x 专用构建链（与主项目 1.20.x-1.21.11 完全隔离）
+// 26.1 起 Minecraft 不再混淆：使用免重映射插件 net.fabricmc.fabric-loom，
+// 不需要 mappings，依赖配置从 modImplementation 改为 implementation，Java 25。
+plugins {
+    id 'java'
+    id 'net.fabricmc.fabric-loom' version '1.20.0-alpha.19'
+}
+
+def mc = project.findProperty('mc') ?: '26.3'
+
+// 以下坐标均为 2026-11-06 实测各 maven / Modrinth 官方数据
+def pins = [
+    '26.1': [f: '0.145.1+26.1', c: '26.1.154', m: '18.0.2'],
+    '26.2': [f: '0.161.0+26.2', c: '26.2.155', m: '20.0.3'],
+    '26.3': [f: '0.165.2+26.3', c: '26.3.159', m: '21.0.0'],
+]
+def pin = pins[mc]
+if (pin == null) throw new GradleException('不支持的 mc 版本：' + mc)
+
+group = 'top.nekoaidev'
+version = '1.0.0-' + mc
+
+repositories {
+    maven { url = 'https://maven.fabricmc.net/' }
+    maven { url = 'https://maven.shedaniel.me/' }
+    maven { url = 'https://maven.terraformersmc.com/releases/' }
+    maven { url = 'https://libraries.minecraft.net/' }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${mc}"
+    implementation "net.fabricmc:fabric-loader:0.20.1"
+    implementation "net.fabricmc.fabric-api:fabric-api:${pin.f}"
+    implementation "me.shedaniel.cloth:cloth-config-fabric:${pin.c}"
+    implementation "com.terraformersmc:modmenu:${pin.m}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+}
+
+processResources {
+    // 必须把 mc / version 声明为输入：否则 Gradle 增量构建会认为源文件没变而跳过，
+    // 导致上一次的 fabric.mod.json（含 =26.3 声明）被复用到其他版本的 jar 里。
+    inputs.property 'mc', mc
+    inputs.property 'mod_version', project.version.toString()
+    outputs.upToDateWhen { false }
+    filesMatching('fabric.mod.json') {
+        expand 'version': project.version, 'mc_version': '=' + mc
+    }
+}

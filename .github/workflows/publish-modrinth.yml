@@ -1,0 +1,43 @@
+name: 同步到 Modrinth
+
+# 只有在「产物 / 清单 / 同步脚本 / 本工作流」变化时才发版。
+# 改 README、改源码不会触发上传，避免无意义的 API 调用。
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+      - 'release-manifest.json'
+      - 'tools/sync_modrinth.py'
+      - '.github/workflows/publish-modrinth.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# 同一时间只允许一个同步任务，避免并发建出重复版本
+concurrency:
+  group: modrinth-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: 校验并同步 21 个版本
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 本地校验（离线，不联网）
+        run: python tools/sync_modrinth.py --check-only
+
+      - name: 同步到 Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: python tools/sync_modrinth.py --go --replace-mismatch

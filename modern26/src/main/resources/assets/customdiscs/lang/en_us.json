@@ -1,0 +1,13 @@
+{
+  "itemGroup.customdiscs": "Custom Discs",
+  "customdiscs.config.title": "Custom Discs Settings",
+  "customdiscs.config.musicSourcePath": "Music Source Folder",
+  "customdiscs.config.musicSourcePath.tooltip": "Folder that contains your .ogg music files. Relative paths are resolved against the game directory.",
+  "customdiscs.config.scan": "Rescan Music Folder",
+  "customdiscs.config.enableCrafting": "Enable Crafting Recipes",
+  "customdiscs.config.volume": "Disc Volume (reserved)",
+  "customdiscs.command.give.usage": "Usage: /customdiscs give <disc_id> [count]",
+  "customdiscs.command.give.unknown": "Unknown disc: %s",
+  "customdiscs.command.give.ok": "Gave %sx %s",
+  "customdiscs.toast.restart": "Settings saved. Please restart the game to apply new discs."
+}

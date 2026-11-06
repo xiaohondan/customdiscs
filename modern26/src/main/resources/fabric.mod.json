@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "customdiscs",
+  "version": "${version}",
+  "name": "Custom Discs",
+  "description": "允许玩家用本地音乐文件自定义我的世界唱片，并通过游戏内设置界面配置音乐源。",
+  "authors": ["小红蛋"],
+  "contact": {
+    "homepage": "https://nekoaidev.top",
+    "sources": "https://github.com/NekoAiDev"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["top.nekoaidev.customdiscs.CustomDiscs"],
+    "client": ["top.nekoaidev.customdiscs.client.CustomDiscsClient"],
+    "modmenu": ["top.nekoaidev.customdiscs.client.ModMenuEntrypoint"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "minecraft": "${mc_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {}
+    }
+  }
+}

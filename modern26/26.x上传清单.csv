@@ -1,0 +1,4 @@
+﻿jar 文件名,Minecraft 版本,平台版本标签,加载器,Java,Fabric Loader,Fabric API,Cloth Config,Mod Menu（可选）
+customdiscs-1.0.0-26.1.jar,26.1,=26.1,Fabric,25+,>=0.20.1,0.145.1+26.1,26.1.154,18.0.2
+customdiscs-1.0.0-26.2.jar,26.2,=26.2,Fabric,25+,>=0.20.1,0.161.0+26.2,26.2.155,20.0.3
+customdiscs-1.0.0-26.3.jar,26.3,=26.3,Fabric,25+,>=0.20.1,0.165.2+26.3,26.3.159,21.0.0
