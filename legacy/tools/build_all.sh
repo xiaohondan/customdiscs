@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 一键构建 Custom Discs 支持的全部版本（Linux / macOS / Git Bash）
+# 一键构建 Neko Custom Discs 支持的全部版本（Linux / macOS / Git Bash）
 set -u
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ENV="$ROOT/.buildenv"

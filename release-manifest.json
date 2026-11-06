@@ -30,8 +30,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "6de1ca2a5316dcc5d38c0d1a973598dc5bc68f20"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.20.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "dd3e85f7fea1d2c7c04fdac84ab67a1347b918a7"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.20.2.jar",
@@ -60,8 +60,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "9a7588859dbc6d244aa3d01c5e96cf44b5e80c3f"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.20.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "e258df3ecfe9393c4aa7bf72b410413476a81236"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.20.3.jar",
@@ -90,8 +90,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.3。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "06a78c0b260e41caf03cc17f08f580c5b5279fad"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.20.3。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "41596e9644b42d49b5133cfccbc9c6599b1e28b3"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.20.4.jar",
@@ -120,8 +120,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.4。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "0b4db4a3af301186f3fc21b8836ddeefca508496"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.20.4。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "ea6567a7adb97b4e9603732b94eef94cb2c966e7"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.20.5.jar",
@@ -150,8 +150,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.5。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "89f7bd9b297dd548b280510360e2bf6dbce3d231"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.20.5。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "776b2e09367671af1b60643728227b655959a4e1"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.20.6.jar",
@@ -180,8 +180,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.20.6。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "86053a73519c0cb2dcc73d16bffb7ac4b73e3473"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.20.6。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "ea65c3b553045e25b4debcad7de6991da4e28052"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.jar",
@@ -210,8 +210,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "92156f74b9ebba21db058e115f3c74e12ee348f7"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "914efc05c6dbf4aaa2a8d7750cfe489e648bc625"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.1.jar",
@@ -240,8 +240,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "8ddde58ae0eb40c7754ba27039a7368675a26de4"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "b9d9fa0fb4072ecce39852c00fc9c90e84e2e087"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.2.jar",
@@ -270,8 +270,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "851062f912d5ad44672559df9f97fcff5397752a"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "475dd300e807bc384d9e9f01a5a6814499d21206"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.3.jar",
@@ -300,8 +300,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.3。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "c3c8a4e751b787063fa2c404deec4b721d856b78"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.3。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "ca090f3e27622d743fc3c0e64b5b36217f3071fd"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.4.jar",
@@ -330,8 +330,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.4。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "06b9345918c82efd1ef6f6257e2e436b40724e40"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.4。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "836c396420c00001ad6fd7e2e2f00008ea7c798e"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.5.jar",
@@ -360,8 +360,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.5。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "89cda68d9406425b79471b36de667f4bda5f97c3"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.5。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "cfa2dcc76f2818db45117962536cfad394a73c16"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.6.jar",
@@ -390,8 +390,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.6。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "0f4a36847644dedda8629ad829f771b37d2d9dd2"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.6。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "c011e8ca1838911084e1f854f89d3a0ec6b5955d"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.7.jar",
@@ -420,8 +420,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.7。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "4e6e0c0b94e0fddd0c34b437b122cae68ff779f0"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.7。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "39dd40d92722db6fd47eecdfa0d20759ac5ec66d"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.8.jar",
@@ -450,8 +450,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.8。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "72e71a2cd9df5080a18cf72bb9c3fa0e182bed33"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.8。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "cab6787473797efa1b2678d189b40db5d6029053"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.9.jar",
@@ -480,8 +480,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.9。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "5c2312bb2c6f79d884d9aca3eba5b418bd7cc15f"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.9。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "6e6714b058c491315f2c85a0495ae45f709d6832"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.10.jar",
@@ -510,8 +510,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.10。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "2a63e30492ecfef7fda9f413c87bf303361eecf2"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.10。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "ef7eec915ca75e55cf63063c156b935a4b6a4194"
     },
     {
       "file": "dist/customdiscs-1.0.0-1.21.11.jar",
@@ -540,8 +540,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 1.21.11。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "d7f2fa7b75bdc0ea57eb6925796501079b18d7b7"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 1.21.11。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "34f4834bcddd7faf95c619e3a44f4dd41330b3e3"
     },
     {
       "file": "dist/customdiscs-1.0.0-26.1.jar",
@@ -570,8 +570,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 26.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "f87ffc962e8c5aaf072890939ed078f2cf9f770d"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 26.1。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "053586c40e77e45118820793931f43803738b2ef"
     },
     {
       "file": "dist/customdiscs-1.0.0-26.2.jar",
@@ -600,8 +600,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 26.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "1cd00eb694493e1ab48ffd6bf616cac21f9457e2"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 26.2。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
+      "sha1": "031680ddcc78dd17ff6512bc7254c4a43da08458"
     },
     {
       "file": "dist/customdiscs-1.0.0-26.3.jar",
@@ -630,8 +630,8 @@
           "dependency_type": "optional"
         }
       ],
-      "changelog": "Custom Discs 1.0.0 for Minecraft 26.3。支持用本地 .ogg 音乐自定义唱片。\n\n注意：本版本仅通过编译验证，尚未在真实游戏中启动测试；唱片机播放所需的数据驱动资源仍在完善中。",
-      "sha1": "80ac5041eaa800aed3b4e66d228a25176372c45c"
+      "changelog": "Neko Custom Discs 1.0.0 for Minecraft 26.3。支持用本地 .ogg 音乐自定义唱片。\n\n本版本已由作者在 Minecraft 26.3 实机测试通过（模组正常加载）。",
+      "sha1": "9a38c1d1691263cc4a3369045ce7b971d27c5d08"
     }
   ]
 }

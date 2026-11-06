@@ -45,7 +45,7 @@ public class ConfigScreenProvider {
         });
 
         ConfigEntryBuilder eb = builder.entryBuilder();
-        ConfigCategory cat = builder.getOrCreateCategory(Component.literal("Custom Discs"));
+        ConfigCategory cat = builder.getOrCreateCategory(Component.literal("Neko Custom Discs"));
 
         cat.addEntry(eb.startStrField(
                         Component.translatable("customdiscs.config.musicSourcePath"),

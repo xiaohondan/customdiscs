@@ -1,6 +1,6 @@
 {
-  "itemGroup.customdiscs": "Custom Discs",
-  "customdiscs.config.title": "Custom Discs Settings",
+  "itemGroup.customdiscs": "Neko Custom Discs",
+  "customdiscs.config.title": "Neko Custom Discs Settings",
   "customdiscs.config.musicSourcePath": "Music Source Folder",
   "customdiscs.config.musicSourcePath.tooltip": "Folder that contains your .ogg music files. Relative paths are resolved against the game directory.",
   "customdiscs.config.scan": "Rescan Music Folder",

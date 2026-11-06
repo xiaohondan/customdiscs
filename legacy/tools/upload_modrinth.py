@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Custom Discs —— Modrinth 批量替换 / 上传脚本
+"""Neko Custom Discs —— Modrinth 批量替换 / 上传脚本
 
 安全约定：
   * 令牌只从环境变量 MODRINTH_TOKEN 或 ~/.modrinth_token 读取，绝不写入本文件、绝不打印。
@@ -40,7 +40,7 @@ DEFAULT_DEPS = [
     {'project_id': 'mOgUt4GM', 'dependency_type': 'optional'},    # Mod Menu
 ]
 
-CHANGELOG = 'Custom Discs 1.0.0 for Minecraft {mc}. 支持用本地 .ogg 音乐自定义唱片。'
+CHANGELOG = 'Neko Custom Discs 1.0.0 for Minecraft {mc}. 支持用本地 .ogg 音乐自定义唱片。'
 
 
 def get_token():

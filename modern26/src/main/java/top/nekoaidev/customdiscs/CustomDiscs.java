@@ -82,7 +82,7 @@ public class CustomDiscs implements ModInitializer {
                 : REGISTERED_DISCS.values().iterator().next();
         // 用 var 兼容 1.20.4- 的 CreativeModeTab 与 1.20.5+ 的 ItemGroup（同一套注册写法）
         var tab = FabricCreativeModeTab.builder()
-                .title(Component.literal("Custom Discs"))
+                .title(Component.literal("Neko Custom Discs"))
                 .icon(() -> new ItemStack(icon))
                 .displayItems((params, output) -> REGISTERED_DISCS.values()
                         .forEach(disc -> output.accept(new ItemStack(disc))))

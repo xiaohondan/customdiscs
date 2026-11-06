@@ -90,7 +90,7 @@ def render():
     s = """<!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta http-equiv="refresh" content="10">
-<title>Custom Discs 构建进度</title>
+<title>Neko Custom Discs 构建进度</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f1f5f9;color:#0f172a;font-family:"Microsoft YaHei","Segoe UI",sans-serif}
 .wrap{max-width:900px;margin:0 auto;padding:32px 20px}
@@ -110,7 +110,7 @@ pre{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:14px;fon
 ul{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:14px 14px 14px 32px;font-size:13px;line-height:1.9}
 .tip{margin-top:26px;padding:14px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;font-size:13px;color:#1e40af;line-height:1.8}
 </style></head><body><div class="wrap">
-<h1>Custom Discs · 构建进度</h1>
+<h1>Neko Custom Discs · 构建进度</h1>
 <p class="sub">每 10 秒自动刷新 · 页面生成于 __TIME__</p>
 <div class="bar"><i></i></div>
 <p class="sum">已出包 <b>__DONE__ / __TOTAL__</b>（__PCT__%）· 当前阶段：__STAGE__</p>

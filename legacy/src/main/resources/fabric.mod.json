@@ -2,7 +2,8 @@
   "schemaVersion": 1,
   "id": "customdiscs",
   "version": "${version}",
-  "name": "Custom Discs",
+  "name": "Neko Custom Discs",
+  "icon": "assets/customdiscs/icon.png",
   "description": "允许玩家用本地音乐文件自定义我的世界唱片，并通过游戏内设置界面配置音乐源。",
   "authors": ["小红蛋"],
   "contact": {

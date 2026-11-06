@@ -1,4 +1,4 @@
-# Custom Discs —— 我的世界自定义唱片模组（Fabric 多版本）
+# Neko Custom Discs —— 我的世界自定义唱片模组（Fabric 多版本）
 
 让玩家用**本地 `.ogg` 音乐文件**自定义唱片，并通过**游戏内设置界面**配置音乐源路径。
 玩家把音乐放进指定文件夹后，模组会扫描并为每个文件注册一张自定义唱片，可在创造标签页、命令、合成配方中获取。
@@ -19,7 +19,7 @@
 - 一次性打包：`CustomDiscs-1.0.0-all-18-versions.zip`（内含全部 18 个 jar，CRC 复核通过）。
 - 上传对照表：`上传清单.csv`（jar 文件名 ↔ MC 版本 ↔ 平台版本标签 ↔ 依赖）。
 - 发布步骤：`发布指南.md`（中文，M 站 / C 站）。
-- **重要**：所有包目前只通过编译与压缩包校验，**尚未在真实游戏里启动验证**；已知功能缺口见第六节。
+- **重要**：`1.0.0-26.3` 已由作者在 Minecraft 26.3 实机测试通过；本目录其余包目前只通过编译与压缩包校验，**尚未在真实游戏里启动验证**；已知功能缺口见第六节。
 
 ### 26.x 已单独交付（26.1 / 26.2 / 26.3）
 
@@ -43,7 +43,7 @@
 
 | 需求 | 实现 |
 | --- | --- |
-| 游戏内设置界面 | Mod Menu → Custom Discs → Configure，基于 Cloth Config |
+| 游戏内设置界面 | Mod Menu → Neko Custom Discs → Configure，基于 Cloth Config |
 | 本地音乐源路径配置 | 设置项「音乐源文件夹」，支持相对（相对游戏目录）或绝对路径 |
 | 指定音乐源后生成唱片 | 启动时扫描该文件夹所有 `.ogg`，为每个文件注册一张自定义唱片 |
 | 音乐加载 | 生成 `resourcepacks/CustomDiscs/`（含 `assets/customdiscs/sounds.json` 与 ogg），并尽量调用 `ResourcePackManager` 挂载 |
@@ -104,7 +104,7 @@ bash tools/build_all.sh        # Windows 用 tools/build_all.bat
 增删音乐文件后需**重启游戏**才能注册新的唱片物品。
 
 ### 2. 打开设置界面
-`Esc → Mods → Custom Discs → Configure`：音乐源文件夹、唱片音量（预留）、启用合成配方、重新扫描。
+`Esc → Mods → Neko Custom Discs → Configure`：音乐源文件夹、唱片音量（预留）、启用合成配方、重新扫描。
 
 ### 3. 获取并使用唱片
 - 创造模式标签页「自定义唱片」；
@@ -119,13 +119,13 @@ bash tools/build_all.sh        # Windows 用 tools/build_all.bat
 1. **1.21+ 播放链路未打通**：`JukeboxSong` 需要 `data/minecraft/jukebox_song/*.json` 数据包条目，
    当前只做了物品侧的 `JukeboxPlayable` 组件；动态资源包只写 `assets`、不写 `data`。
    因此 1.21 及以上版本的唱片机**可能不响**，尚未实机验证。
-2. **所有包仅通过编译，未实机启动验证**。建议发布前至少用 1.20.1 与 1.21.11 各跑一次游戏。
+2. **除 26.3 外的包仅通过编译，未实机启动验证**。建议发布前至少用 1.20.1 与 1.21.11 各跑一次游戏。
 3. `fabric.mod.json` 的 `environment` 仍是 `client`，但代码注册了服务端命令
    `/customdiscs give`；专用服务器不会加载本模组，该命令在服务器上不可用。
    若要支持服务器需改为 `"*"` 并重新构建。
 4. `authors` 已统一改为 `["小红蛋"]`（18 个 jar 内元数据 + 源码模板 + 总包同步，无需重新编译）。
-5. 项目代码由 AI 辅助生成，如平台询问 AI 生成内容请如实披露，不要隐瞒或改写规避审核。
-6. 图标、封面图、`LICENSE` 文件尚未准备。
+5. **如实披露**：原 Custom Discs 项目版本不全或已停更；本 Neko Custom Discs 为重新自行设计、独立实现，未复制或改写该项目任何源代码与素材，无任何借鉴与抄袭。本仓库源码由 AI 辅助生成（依据 Fabric / Cloth Config 官方公开 API 文档），平台询问时如实披露。`1.0.0-26.3` 已实机测试通过。
+6. 图标已备（`icon.png` / `icon-256.png`，原创）、MIT `LICENSE` 已备；封面图尚未准备。
 
 ---
 

@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-REM 一键构建 Custom Discs 支持的全部版本（Windows）
+REM 一键构建 Neko Custom Discs 支持的全部版本（Windows）
 setlocal enabledelayedexpansion
 
 set "ROOT=%~dp0.."

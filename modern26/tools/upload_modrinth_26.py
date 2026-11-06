@@ -36,7 +36,7 @@ DEPS = [
     {'project_id': 'mOgUt4GM', 'dependency_type': 'optional'},    # Mod Menu
 ]
 CHANGELOG = (
-    'Custom Discs 1.0.0 for Minecraft {mc}。支持用本地 .ogg 音乐自定义唱片。\n\n'
+    'Neko Custom Discs 1.0.0 for Minecraft {mc}。支持用本地 .ogg 音乐自定义唱片。\n\n'
     '注意：本版本需要 Java 25；仅通过编译验证，尚未在真实游戏中启动测试。'
 )
 

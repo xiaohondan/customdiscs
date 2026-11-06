@@ -1,6 +1,6 @@
 {
-  "itemGroup.customdiscs": "自定义唱片",
-  "customdiscs.config.title": "自定义唱片设置",
+  "itemGroup.customdiscs": "Neko 自定义唱片",
+  "customdiscs.config.title": "Neko 自定义唱片设置",
   "customdiscs.config.musicSourcePath": "音乐源文件夹",
   "customdiscs.config.musicSourcePath.tooltip": "存放 .ogg 音乐文件的文件夹。填相对路径时会相对于游戏目录解析。",
   "customdiscs.config.scan": "重新扫描音乐文件夹",

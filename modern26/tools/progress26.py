@@ -75,7 +75,7 @@ def render():
     stage = ('26.x 全部出齐，3/3 CRC / class / 元数据 / 署名校验通过'
              if done == 3 else html.escape(last[0]))
     tpl = """<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
-<meta http-equiv="refresh" content="10"><title>Custom Discs 26.x 构建进度</title>
+<meta http-equiv="refresh" content="10"><title>Neko Custom Discs 26.x 构建进度</title>
 <style>body{background:#f6f8fa;color:#1f2328;font:14px/1.7 -apple-system,"Microsoft YaHei",sans-serif;margin:0;padding:32px}
 .wrap{max-width:760px;margin:auto;background:#fff;border:1px solid #d0d7de;border-radius:12px;padding:28px 32px}
 h1{font-size:20px;margin:0 0 4px}h2{font-size:15px;margin:26px 0 10px;color:#57606a}
@@ -86,7 +86,7 @@ h1{font-size:20px;margin:0 0 4px}h2{font-size:15px;margin:26px 0 10px;color:#576
 .dot{width:10px;height:10px;border-radius:50%}.st{margin-left:auto;color:#57606a}.sz{width:90px;text-align:right;color:#8c959f}
 ul{padding-left:20px}li{margin:3px 0}.tip{margin-top:22px;padding:12px 14px;background:#ddf4ff;border-radius:8px;color:#0969da}
 .foot{margin-top:14px;color:#8c959f;font-size:12px}</style></head><body><div class="wrap">
-<h1>Custom Discs · Minecraft 26.x 构建进度</h1>
+<h1>Neko Custom Discs · Minecraft 26.x 构建进度</h1>
 <p class="sum">已出包 <b>__DONE__ / 3</b>（__PCT__%）· 当前阶段：__STAGE__</p>
 <div class="bar"><i></i></div><div class="grid">__CARDS__</div>
 <h2>产物清单</h2><ul>__JARS__</ul>
