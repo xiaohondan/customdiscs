@@ -26,10 +26,12 @@ import urllib.request
 import uuid
 import zipfile
 
-API = 'https://minecraft.curseforge.com/api/v1'
+DEFAULT_API = 'https://minecraft.curseforge.com/api/v1'
+ALT_API = 'https://api.curseforge.com/v1'
+PROJECT_ID = '1784647'  # CurseForge 项目 ID（由项目方提供）
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / 'release-manifest.json'
-PROJECT_ID = '1784647'  # CurseForge 项目 ID（由项目方提供）
 
 
 def ssl_ctx():
@@ -46,7 +48,10 @@ def token():
     return t
 
 
-def req(method, path, tok=None, payload=None, files=None):
+def req(method, url, tok=None, payload=None, files=None):
+    """url 可为绝对地址（诊断用）或相对路径（拼接 API_BASE）。"""
+    if not url.startswith('http'):
+        url = API_BASE + url
     headers = {
         'User-Agent': 'NekoStudio-CustomDiscs-Sync/1.0',
         'Accept': 'application/json',
@@ -81,7 +86,6 @@ def req(method, path, tok=None, payload=None, files=None):
         body = json.dumps(payload, ensure_ascii=False).encode('utf-8')
         headers['Content-Type'] = 'application/json'
 
-    url = API + path
     request = urllib.request.Request(url, data=body, headers=headers, method=method)
     try:
         with urllib.request.urlopen(request, context=ssl_ctx(), timeout=180) as resp:
@@ -91,8 +95,11 @@ def req(method, path, tok=None, payload=None, files=None):
                 return data.get('data', data)
             return data
     except urllib.error.HTTPError as e:
-        detail = e.read().decode('utf-8', 'replace')[:600]
-        raise RuntimeError('%s %s -> HTTP %s: %s' % (method, path, e.code, detail))
+        detail = e.read().decode('utf-8', 'replace')
+        ctype = e.headers.get('Content-Type', '')
+        preview = detail[:200].replace('\n', ' ')
+        raise RuntimeError('%s %s -> HTTP %s (content-type=%s): %s'
+                           % (method, url, e.code, ctype, preview))
 
 
 def load_manifest():
@@ -140,7 +147,25 @@ def load_modloaders(tok):
     return {l['name'].lower(): l['id'] for l in loaders}
 
 
+def detect_base(tok):
+    """探测哪个 API host 能拿到项目；返回可用 base 或 None。"""
+    global API_BASE
+    for base in (DEFAULT_API, ALT_API):
+        try:
+            p = req('GET', base + '/projects/' + PROJECT_ID, tok)
+            print('[diag] base %s -> OK，项目名=%r slug=%r'
+                  % (base, p.get('name'), p.get('slug')))
+            API_BASE = base
+            return p
+        except RuntimeError as e:
+            print('[diag] base %s -> 失败：%s' % (base, str(e)[:240]))
+    return None
+
+
 def main():
+    global API_BASE
+    API_BASE = DEFAULT_API
+
     ap = argparse.ArgumentParser()
     ap.add_argument('--check-only', action='store_true', help='只做本地一致性校验，不联网')
     ap.add_argument('--go', action='store_true', help='真正执行上传（默认只预演）')
@@ -159,14 +184,17 @@ def main():
 
     tok = token()
 
-    # 1) 校验项目身份，防止传错项目
-    proj = req('GET', '/projects/' + PROJECT_ID, tok)
+    # 1) 探测可用 host 并校验项目身份
+    proj = detect_base(tok)
+    if proj is None:
+        sys.exit('两个 API host 都无法获取项目 %s，请检查：① 项目 ID 是否正确；'
+                 '② Token 是否对该项目有权限；③ 项目是否已在 CurseForge 上创建。' % PROJECT_ID)
     pname = proj.get('name', '')
     pslug = proj.get('slug', '')
     if 'neko custom discs' not in pname.lower():
         sys.exit('项目身份校验失败：id=%s 的项目名是 %r（slug=%s），疑似不是 Neko Custom Discs。'
                  '中止以防传错项目。' % (PROJECT_ID, pname, pslug))
-    print('项目校验通过：%s（slug=%s，id=%s）' % (pname, pslug, PROJECT_ID))
+    print('项目校验通过：%s（slug=%s，id=%s，使用 %s）' % (pname, pslug, PROJECT_ID, API_BASE))
 
     # 2) 拉取版本映射
     mc_map = load_mc_versions(tok)
