@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[7.0.29,8.0)'
+}
+
+// 版本通过 gradle.properties 里的 mc / forgeVer 切换。
+// 1.21.11 与 26.x 共用 ForgeGradle 7 + Gradle 9.8.2；26.x 用 JDK 25。
+def mc = project.findProperty('mc') ?: '26.3'
+def forgeVer = project.findProperty('forgeVer') ?: '26.3-66.1.5'
+def forgeMajor = forgeVer.split('-')[1].split('\\.')[0]
+
+version = "1.0.0-${mc}-forge"
+group = 'top.nekoaidev.customdiscs'
+base { archivesName = 'customdiscs' }
+
+def javaVer = mc.startsWith('26.') ? 25 : 21
+java.toolchain.languageVersion = JavaLanguageVersion.of(javaVer)
+
+// 26.x 的界面渲染接口整体改名，ConfigScreen 按版本族切换，其余 4 个类共用。
+def screenFamily = mc.startsWith('26.') ? 'v-26' : 'v-1211'
+sourceSets.main.java.srcDirs = ['src/main/java', "src/${screenFamily}/java"]
+
+minecraft {
+    mappings channel: 'official', version: mc
+}
+
+repositories {
+    minecraft.mavenizer(it)
+    maven fg.forgeMaven
+    maven fg.minecraftLibsMaven
+}
+
+dependencies {
+    implementation minecraft.dependency("net.minecraftforge:forge:${forgeVer}")
+}
+
+tasks.named('processResources') {
+    // Windows 默认编码会把中文署名写成乱码，必须显式 UTF-8。
+    filteringCharset = 'UTF-8'
+    inputs.property 'mc', mc
+    inputs.property 'version', project.version
+    inputs.property 'forgeMajor', forgeMajor
+    filesMatching('META-INF/mods.toml') {
+        expand 'version': project.version, 'mc': mc, 'forgeMajor': forgeMajor
+    }
+    outputs.upToDateWhen { false }
+}

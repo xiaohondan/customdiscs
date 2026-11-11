@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[${forgeMajor},)"
+license="MIT"
+logoFile="icon.png"
+showAsResourcePack=false
+
+[[mods]]
+modId="customdiscs"
+version="${version}"
+displayName="Neko Custom Discs"
+authors="小红蛋"
+description='''允许玩家用本地 .ogg 音乐文件自定义唱片，并通过游戏内设置界面配置音乐源。'''
+# 本项目与市面上同名 Custom Discs 无关，为重新自行设计、独立实现；源码由 AI 辅助生成。
+
+[[dependencies.customdiscs]]
+    modId="forge"
+    mandatory=true
+    versionRange="[${forgeMajor},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.customdiscs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[${mc}]"
+    ordering="NONE"
+    side="BOTH"
