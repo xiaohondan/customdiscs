@@ -1,4 +1,4 @@
-name: 同步到 Modrinth
+name: 同步到 Modrinth 与 CurseForge
 
 # 只有在「产物 / 清单 / 同步脚本 / 本工作流」变化时才发版。
 # 改 README、改源码不会触发上传，避免无意义的 API 调用。
@@ -9,6 +9,7 @@ on:
       - 'dist/**'
       - 'release-manifest.json'
       - 'tools/sync_modrinth.py'
+      - 'tools/sync_curseforge.py'
       - '.github/workflows/publish-modrinth.yml'
   workflow_dispatch:
 
@@ -41,3 +42,8 @@ jobs:
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
         run: python tools/sync_modrinth.py --go --replace-mismatch
+
+      - name: CurseForge 预演（校验项目身份 + 列出将上传清单，不实际上传）
+        env:
+          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+        run: python tools/sync_curseforge.py
