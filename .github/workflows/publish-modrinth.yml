@@ -43,7 +43,15 @@ jobs:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
         run: python tools/sync_modrinth.py --go --replace-mismatch
 
-      - name: CurseForge 预演（校验项目身份 + 列出将上传清单，不实际上传）
+      # ---- CurseForge 同步：当前停用 ----
+      # 诊断结果（CI 实测）：项目 ID 1784647 在 CF 两个官方 host 均返回 404，
+      # 说明该项目在 CurseForge 上不存在（ID 错或未建项目），并非 Token 问题。
+      # 待主人在 CF 网页确认/创建项目并提供正确数字 ID 后：
+      #   1) 删除下面这行 `if: false`
+      #   2) 把 run 改成 `python tools/sync_curseforge.py --go`（脚本已内置两 host 探测 + 项目身份校验 + 幂等）
+      #   3) 必要时更新脚本里的 PROJECT_ID
+      - name: CurseForge 同步（已停用：待正确项目 ID）
+        if: false
         env:
           CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
-        run: python tools/sync_curseforge.py
+        run: python tools/sync_curseforge.py --go
